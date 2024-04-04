@@ -52,7 +52,7 @@ quiet = False
 lmax = 90  # Maximum spherical harmonic degree to perform all
 # calculations
 pot_clm = pysh.datasets.Mars.GMM3(lmax=lmax)
-topo_clm = pysh.datasets.Mars.MarsTopo2600(lmax=lmax)
+topo_clm = pysh.datasets.Mars.MOLA_shape(lmax=lmax)
 
 R = topo_clm.coeffs[0, 0, 0]  # Mean planetary radius
 pot_clm = pot_clm.change_ref(r0=R)  # Downward continue to Mean

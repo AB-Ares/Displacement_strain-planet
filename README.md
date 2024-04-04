@@ -82,7 +82,7 @@ If you want to run the notebook, you'll need to install jupyter
 ```
 
 ## Author
-[Adrien Broquet](https://www.lpl.arizona.edu/postdocs/adrien-broquet) (adrienbroquet@arizona.edu)
+[Adrien Broquet](https://ab-ares.github.io/website/) (adrien.broquet@dlr.de)
 
 ## Cite
 You can cite the latest release of the package as:
@@ -98,4 +98,9 @@ Adrien Broquet. (2024). Displacement_strain_planet: 0.5.0 (Version 0.5.0). Zenod
 ```
 
 ## Acknowledgments
-I would like to thank the SHTools developers for putting together their great open-source code, and Mark Wieczorek, Jeff Andrews-Hanna, and Antony Trinh for stimulating discussion. 
+I would like to thank the SHTools developers for putting together a great open-source code, and Mark Wieczorek, Jeff Andrews-Hanna, and Antony Trinh for stimulating discussion. 
+
+## Extra
+If you are interested in calculating gravity & topography global/localized admittances, you should check my [Py_Admittance](https://github.com/AB-Ares/Py_Admittance) package.
+
+If you are interested in calculating yield strength envelopes, temperature profiles, and heat flows from elastic thickness check my [Te_HF_ConversionTe_HF_Conversion](https://github.com/AB-Ares/Te_HF_Conversion) package.

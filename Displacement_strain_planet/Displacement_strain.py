@@ -771,7 +771,6 @@ def Displacement_strains_shtools(
     A_lmd2_t = -((A_lm * lapla_a).expand(**kw_exp).data + A_lm_d1_t_cot + A_lmd2_p_csc2)
     w_lmd2_t = -((w_lm * lapla_a).expand(**kw_exp).data + w_lm_d1_t_cot + w_lmd2_p_csc2)
 
-    # np.einsum(ein_sum, y_lm, w_lm, optimize=path_sum)
     eps_theta = R_m1 * A_lmd2_t + w_deflec_ylm
     eps_phi = R_m1 * (A_lmd2_p_csc2 + A_lm_d1_t_cot) + w_deflec_ylm
     omega = 2.0 * R_m1 * (A_lmd2_tp * csc - A_lm_d1_p.data * cotcsc)

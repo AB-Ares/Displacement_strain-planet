@@ -135,7 +135,7 @@ print("Iteration method, maximum flexure %.3f km" % (min2 / 1e3))
 # The 'thick' coeffs are input using the add_arrays option and are
 # expressed as add_array1 in the package's convention.
 # The input equation is thus thick = 'add_array1 = (H_lm + w_lm)'
-# or 'add_array1 - (H_lm + w_lm)' in the package's left-handside only
+# or 'add_array1 - (H_lm + w_lm)' in the package's left hand side only
 # equation convention.
 out = Thin_shell_matrix_nmax(
     *args_param_m,
