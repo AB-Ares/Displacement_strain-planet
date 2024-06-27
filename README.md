@@ -85,7 +85,7 @@ If you want to run the notebook, you'll need to install jupyter
 [Adrien Broquet](https://ab-ares.github.io/website/) (adrien.broquet@dlr.de)
 
 ## Cite
-You can cite the latest release of the package as:
+If you use the package, please cite the latest release as:
 Adrien Broquet. (2024). Displacement_strain_planet: 0.5.0 (Version 0.5.0). Zenodo. http://doi.org/10.5281/zenodo.4916799
 
 ```bash
@@ -103,4 +103,4 @@ I would like to thank the SHTools developers for putting together a great open-s
 ## Extra
 If you are interested in calculating gravity & topography global/localized admittances, you should check my [Py_Admittance](https://github.com/AB-Ares/Py_Admittance) package.
 
-If you are interested in calculating yield strength envelopes, temperature profiles, and heat flows from elastic thickness check my [Te_HF_ConversionTe_HF_Conversion](https://github.com/AB-Ares/Te_HF_Conversion) package.
+If you are interested in calculating yield strength envelopes, temperature profiles, and heat flows from elastic thickness check my [Te_HF_Conversion](https://github.com/AB-Ares/Te_HF_Conversion) package. You can also compute global/localized gravity and topography admittances using [Py_Admittance](https://github.com/AB-Ares/Py_Admittance) package.
